@@ -72,4 +72,4 @@ In controlled indoor testing:
 4. Long-range sensor upgrade (LiDAR)
 5. PID-based smoother tracking system
 
-[For more detiled show my article on medium.](https://medium.com/@malshahin/building-my-own-drone-detection-laser-tracking-air-defense-system-using-arduino-28266ce7fbb9)
+[For more detiled. read my article on medium.](https://medium.com/@malshahin/building-my-own-drone-detection-laser-tracking-air-defense-system-using-arduino-28266ce7fbb9)
