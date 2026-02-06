@@ -6,13 +6,13 @@ The system uses dual ultrasonic radar units (front and rear) mounted on pan-tilt
 
 ## Key Features
 
-• Dual radar scanning (front and rear)
-• Automatic laser targeting with geometric offset correction
-• Real-time radar visualization using Processing
-• OLED threat status display (SAFE / SERIOUS / DANGER)
-• Air attack siren alert system
-• Trigonometric correction for physical laser offset
-• Average 95% detection accuracy in controlled indoor testing
+1. Dual radar scanning (front and rear)
+2. Automatic laser targeting with geometric offset correction
+3. Real-time radar visualization using Processing
+4. OLED threat status display (SAFE / SERIOUS / DANGER)
+5. Air attack siren alert system
+6. Trigonometric correction for physical laser offset
+7. Average 95% detection accuracy in controlled indoor testing
 
 ## How It Works
 
@@ -24,26 +24,26 @@ The system uses dual ultrasonic radar units (front and rear) mounted on pan-tilt
 6. The Processing GUI visualizes radar sweep and target tracking in real time.
 
 The geometric correction ensures that the laser beam aligns accurately even though it is mounted:
-• 6 cm below the radar sensor
-• 5 cm forward
-• Rear laser offset 2 cm to the left
+1. 6 cm below the radar sensor
+2. 5 cm forward
+3. Rear laser offset 2 cm to the left
 
 Without this correction, the laser would miss the target due to physical displacement.
 
 ## System Components
 
 Hardware:
-• Arduino
-• 2x HC-SR04 ultrasonic sensors
-• 4x micro servos (radar pan/tilt)
-• 4x micro servos (laser pan/tilt)
-• Laser modules
-• OLED display
-• Buzzer
+1. Arduino Uno 3
+2. 2x HC-SR04 ultrasonic sensors
+3. 4x micro servos (radar pan/tilt)
+4. 4x micro servos (laser pan/tilt)
+5. Laser modules
+6. OLED display
+7. Buzzer
 
 Software:
-• Arduino IDE
-• Processing (Radar GUI)
+1. Arduino IDE
+2. Processing (Radar GUI)
 
 ## Project Purpose
 
@@ -51,25 +51,25 @@ This project is built strictly for educational and research purposes. It is desi
 
 ## Repository Structure
 
-/Arduino_Code → Complete embedded system code
-/Processing_Code → Real-time radar visualization code
-/images → Hardware setup and GUI screenshots
-/README.md → Full documentation
+1. /Arduino_Code → Complete embedded system code
+2. /Processing_Code → Real-time radar visualization code
+3. /images → Hardware setup and GUI screenshots
+4. /README.md → Full documentation
 
 ## Results
 
 In controlled indoor testing:
 
-• Front radar detection accuracy ≈ 96%
-• Rear radar detection accuracy ≈ 94%
-• Overall average accuracy ≈ 95%
+1. Front radar detection accuracy ≈ 96%
+2. Rear radar detection accuracy ≈ 94%
+3. Overall average accuracy ≈ 95%
 
 ## Future Improvements
 
-• Computer vision-based drone classification
-• RF signal detection integration
-• AI-based threat identification
-• Long-range sensor upgrade (LiDAR)
-• PID-based smoother tracking system
+1. Computer vision-based drone classification
+2. RF signal detection integration
+3. AI-based threat identification
+4. Long-range sensor upgrade (LiDAR)
+5. PID-based smoother tracking system
 
 [For more detiled show my article on medium.](https://medium.com/@malshahin/building-my-own-drone-detection-laser-tracking-air-defense-system-using-arduino-28266ce7fbb9)
